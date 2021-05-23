@@ -1,0 +1,150 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0;
+  padding-left: 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Iphone Image */
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg) translate(35px);
+}
+
+/* features */
+.feature-row {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.feature-icons {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+  font-size: 4.1rem;
+  transform: rotate(10deg);
+}
+
+.feature {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-descripiton {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-slide {
+  height: 450px;
+}
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.testimonial-slide {
+  padding: 3% 15%;
+}
+
+.testimonial-button {}
+
+/* Pricing section */
+#pricing {
+  padding: 3% 5%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-deck {
+  margin: 60px 0% 5% 0%;
+
+
+}
+.card-row{
+  text-align: center;
+  margin: 0 auto;
+}
+.card {
+  background-color: #ef8172;
+  border: solid 2px;
+  margin: 5px;
+  text-align: left;
+  }
+
+.card-title {
+  color: white;
+}
